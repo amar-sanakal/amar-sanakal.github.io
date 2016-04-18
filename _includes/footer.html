@@ -9,7 +9,7 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-3">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -22,12 +22,14 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+          {% if site.facebook_username %}
+          <li>
+            {% include icon-facebook.html username=site.facebook_username %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
 
   </div>
