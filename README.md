@@ -1,2 +1,0 @@
-amar-sanakal.github.io
-======================
