@@ -1,18 +1,60 @@
 ---
-layout: default
+layout: page
+title: "Namaste"
+subtitle: Some thoughts and ramblings which may, at times, make sense
+meta-title: "Amar Sanakal"
 ---
 
-<div class="home">
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-  <h1 class="page-heading">Hello World!</h1>
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-  <p class="welcome">On this plane of existence you'll probably know me as Amar Sanakal
-   and if you don't, then you'll be advised that this is how you would address me. It does help in identifying
-   one individual, viz. me, out of this large compendium of people abiding in this world. You might ask, and rightly so,
-   why should you be interested in me?</p>
-   <p>Oh, did I give you the impression that you must be interested in me? Sorry, that is not what I meant.
-   All I really wanted to do was to setup my existence <strong>on the web</strong>. In doing so, I thought I could potentially take the
-   opportunity to scratch my itch to pen down some random thoughts.</p>
-   <p>I hope to do that in stages whenever I get the opportunity to add them to <a href="/blog">my blog</a>.</p>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
+    <div class="post-entry">
+      {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags: 
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
 </div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
