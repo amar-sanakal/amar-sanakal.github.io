@@ -9,3 +9,6 @@ gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
 gem 'execjs'
 gem 'therubyracer'
 gem 'jekyll-paginate'
+
+gem 'jekyll'
+gem 'html-proofer'
