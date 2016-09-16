@@ -1,5 +1,6 @@
 require 'jekyll'
 require 'html-proofer'
+require 'fileutils'
 
 source = File.dirname(__FILE__)
 built_site = File.join(source, '_site')
@@ -19,4 +20,9 @@ task :build do |t|
     })
     site = Jekyll::Site.new(config)
     Jekyll::Commands::Build.build(site, config)
+end
+
+desc 'Clean up the generated site'
+task :clean do |t|
+    FileUtils.rm_rf(built_site, :verbose => true)
 end
