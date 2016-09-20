@@ -26,3 +26,12 @@ desc 'Clean up the generated site'
 task :clean do |t|
     FileUtils.rm_rf(built_site, :verbose => true)
 end
+
+desc 'Serve your site locally'
+task :serve do |t|
+    config = Jekyll.configuration({
+        'source' => source,
+        'destination' => built_site
+    })
+    Jekyll::Commands::Serve.serve(config)
+end
