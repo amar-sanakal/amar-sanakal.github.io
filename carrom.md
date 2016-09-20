@@ -16,7 +16,7 @@ Much later, after having moved to the UK, when I made contact with [UK Carrom Fe
 favourite game once again. To begin with I started participating in the regular ranking tournaments held by the UKCF.
 My first international success came about in EuroCup 2014, when I managed to win the 3rd place in the Doubles event with my friend and
 doubles partner, Aniket Shetye.
-[![3rd Place](/img/eurocup2014-3rdprize.png)](/img/img/eurocup2014-3rdprize.png)
+[![3rd Place](/img/eurocup2014-3rdprize.png)](/img/eurocup2014-3rdprize.png)
 
 In the following year, I managed to make it into the UK team playing the Euro Cup in 2015 in Switzerland. I was playing in the UK team
 for the first time and yet we, viz. the UK team, managed to win the Team Championship once again for that year.
