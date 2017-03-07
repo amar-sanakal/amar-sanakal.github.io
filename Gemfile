@@ -12,4 +12,3 @@ gem 'jekyll-paginate'
 
 gem 'jekyll'
 gem 'html-proofer'
-gem 'rake'
