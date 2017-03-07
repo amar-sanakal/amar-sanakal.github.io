@@ -8,7 +8,7 @@ share-img: /img/carrom.jpg
 [![Carrom tournament](/img/carrom.jpg)](/img/carrom.jpg)
 
 I've been playing the game of Carrom since my childhood. Although I did play it during my school age, there was a gap of a few years
-during college when I had lost touch with it. It was later during my post graduation that I had picked up playing his wonderful
+during college when I had lost touch with it. It was later during my post graduation that I had picked up playing this wonderful
 game once again. I did manage to become the university champion during my time doing my masters in Mathematics at the Bombay University.
 Again, I must admit I did lose touch with the game for some time, on and off, during the following years. 
 
