@@ -217,8 +217,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-paginate
-  json
   therubyracer
 
 BUNDLED WITH
-   1.12.5
+   1.14.6
