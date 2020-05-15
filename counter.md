@@ -74,7 +74,7 @@ permalink: /tools/corona-carrom-counter/
 					<div class="col-md-5">
 						<div class="card mb-5 shadow-sm">
 							<button type="button" class="btn btn-lg btn-outline-light" onclick="increment('missCount1')">
-								<svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="true" role="img" aria-label="Placeholder: 00"><rect width="100%" height="100%" fill="#3672d9"/><text id="missCount1" x="50%" y="50%" fill="#eceeef" dy=".4em"></text></svg>
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="true" role="img" aria-label="Placeholder: 00"><rect width="100%" height="100%" fill="#3672d9"/><text id="missCount1" x="50%" y="50%" fill="#0f0f0f" dy=".4em"></text></svg>
 							</button>
 							<div class="card-body">
 								<div class="btn-grp align-items-center">
@@ -115,7 +115,7 @@ permalink: /tools/corona-carrom-counter/
 					<div class="col-md-5">
 						<div class="card mb-4 shadow-sm">
 							<button type="button" class="btn btn-lg btn-outline-light" onclick="increment('missCount4')">
-								<svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 00"><rect width="100%" height="100%" fill="#f5073b"/><text id="missCount4" x="50%" y="50%" fill="#eceeef" dy=".4em"></text></svg>
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 00"><rect width="100%" height="100%" fill="#ed802d"/><text id="missCount4" x="50%" y="50%" fill="#0f0f0f" dy=".4em"></text></svg>
 							</button>
 							<div class="card-body">
 								<div class="btn-grp">
