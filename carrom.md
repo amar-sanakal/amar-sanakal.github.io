@@ -23,4 +23,4 @@ for the first time and yet we, viz. the UK team, managed to win the Team Champio
 [![UK Team](/img/EuroCup2015.jpg)](/img/EuroCup2015.jpg)
 
 It has been quite a wonderful journey playing my favourite game and I must admit, I am quite happy with my
-[performance playing the game](http://sol3.arstecnica.it/lit/player/9e782b4c841711e3ac012e92809967e5) all this time.
+[performance playing the game](http://sol.arstecnica.it/lit/player/9e782b4c841711e3ac012e92809967e5) all this time.
